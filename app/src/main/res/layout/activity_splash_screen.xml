@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_linear"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingLeft="100dp"
+            android:text="We Build This Bank For You"
+            android:textColor="#225564"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/secureline"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="SafePe करिये"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/secureline"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingLeft="90dp"
+            android:text="Secure रहिये"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center|bottom"
+        android:text="SafePe is an RBI registered NBFC"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center|bottom"
+        android:text="Secured By"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/securebtn"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:contentDescription="Verified By Visa"
+                android:src="@drawable/verified_by_visa" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/norton" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:contentDescription="MasterCard Secure"
+                android:src="@drawable/master_card_securecode" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lightline"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_above="@id/darkline"
+            android:background="#42aad8">
+
+        </View>
+
+        <View
+            android:id="@+id/darkline"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="#0f5865"></View>
+    </LinearLayout>
+
+</LinearLayout>

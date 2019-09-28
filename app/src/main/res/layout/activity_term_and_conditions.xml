@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:text="INTRODUCTION\n
+Please read these terms and conditions carefully before using these websites.\n\n
+For purposes of these Terms and Conditions, you and your means each person, group of individuals, entity or entities who visits these Websites (as defined below) or the --------mobile app (the “Mobile App”) for any purpose.
+The purchase of -------- game tickets for Lotto, -------- and any other ------------ game tickets authorized by Indian law to be sold over the internet (Internet Tickets) or subscription plans (Lottery Subscriptions) on these Websites is strictly limited to persons who are at least 18 years old and who are located within the geographical boundaries of the State of Illinois at the time of purchase of the Internet Tickets or the Lottery Subscriptions. You must be 18 years or older to download the Mobile App. As an authorized, registered player, you may access your X90 Entertainment account (the Players Account) from outside the State of Illinois. However, you must be located within the geographical boundaries of the State of Illinois to purchase Internet Tickets or Lottery Subscriptions. In order to comply with legal requirements governing the sale of Internet Tickets and Lottery Subscriptions, precise information about your location or the location of your device will be collected. The X90 Entertainment uses geo-filtering software (Player Location Service) and the Mobile Device Geo-Location Service (Device Geo-Location Service) (for mobile device users) to verify that you and your device are located in the state of Illinois when you make a purchase. If the X90 Entertainment is unable to verify that you and your device are located in the state of Illinois, you will not be able to purchase Internet Tickets or Lottery Subscriptions. Upon successful verification of your location and the location of your device, you will be able to utilize these Websites to purchase Internet Tickets (provided you are in Illinois at the time you purchase the Internet Tickets); sign-up for and purchase Lottery Subscriptions (provided you are in Illinois at the time you purchase the Lottery Subscriptions); log into your Players Account; view transactional history, account balance, winning X90 Entertainment numbers, or otherwise manage your Players Account; and access other information related to the X90 Entertainment. Note that if you’re mobile device is turned off, the Player Location Service or the Device Geo-Location Service will not detect your location or the location of your device. Additionally, mobile device users who opt out of allowing the Device Geo-Location Service to detect the location of their device will not be allowed to purchase Internet Tickets or Lottery Subscriptions. Access to, and use of your Players Account is strictly limited to you as the registered and authorized user. Accordingly, you should not share your username and password with anyone. Prior to making a purchase, you must check a box certifying that you (1) are the registered and authorized user of your Players Account, (2) are at least 18 years old, and (3) are completing a purchase from a location within the geographical boundaries of the State of Illinois. Failure to comply with any of these requirements will result in forfeiture of all winnings.
+The X90 Entertainment reserves the right to terminate, suspend or cancel any Players Accounts for suspected fraud of any type, any attempt to purchase Internet Tickets and/or Lottery Subscriptions from a location that is not within the geographic boundaries of Illinois, the purchase or attempted purchase of Internet Tickets and/or Lottery Subscriptions by persons under the age of 18 years old, and for violations of any applicable rules, regulations, state or federal laws.
+In the event a purchase is determined to have been placed by an individual under the age of 18, by someone other than the registered owner of the Players Account, from a location outside the State of Illinois, or through any fraudulent or unlawful means, the prize will be forfeited, the funds deposited into the Lottery Fund, and the Players Account may be canceled.
+The X90 Entertainment encourages parents to ensure that children under the age of 18 do not have access to Personally Identifiable Information (PII) that may be used to set up a Players Account and/or purchase Internet Tickets or Lottery Subscriptions on these Websites.
+For purposes of these Terms and Conditions, PII means information about a natural person that is readily identifiable to that specific individual. In this case, PII includes, among other information, an individual's name, address, telephone number, date of birth, password information, and any other information used to identify you on these Websites. A domain name or Internet protocol address is not considered Personally Identifiable Information.
+For purposes of these Terms and Conditions, the X90 Entertainment means the Illinois Department of the Lottery, including its agents, contractors, and any parties involved in creating, producing, or delivering these Websites, including, but not limited to, North star Lottery Group, LLC and IGT Global Solutions Corporation and each of their respective successors and assigns.
+These Terms and Conditions are a binding legal agreement between you and the X90 Entertainment. By visiting these Websites, you agree to be bound by these Terms and Conditions.
+The X90 Entertainment may change these Terms and Conditions at any time without notice to you by posting changes on these Websites. The X90 Entertainment encourages you to review these Terms and Conditions from time to time. Your continued use of these Websites following the posting of any changes will mean that you accept the revised Terms and Conditions.
+If you do not agree with these Terms and Conditions, you should immediately stop using these Websites.
+If you browse through these Websites and review information such as game rules or winning numbers, then only Sections I through II of these Terms and Conditions apply to you. If you sign up for, or access a Players Account (which is required to purchase Internet Tickets or sign up for Lottery Subscriptions), then the entire document applies to you.\n
+Back to top\n
+II. USE OF WEBSITE AND WEBSITE MATERIAL\n
+You agree to access and use these Websites only for lawful reasons. You are responsible for knowing and complying with any and all laws, statutes, rules and regulations pertaining to your use of these Websites. You are prohibited from using these Websites in any way that:\n
+•	is threatening, violent, abusive, hateful, defamatory, slanderous, libelous, deceptive, fraudulent, tortious, indecent, vulgar, profane, obscene, or that the X90 Entertainment deems in its sole discretion to be inappropriate for these Websites;\n
+•	violates any law, regulation, or court order;\n
+•	accesses, collects or stores personal information about others;\n
+•	violates or infringes upon the rights of anyone else, including, for example, another person's right to privacy;\n
+•	impersonates any person, business, entity, or IP address (e.g., IP spoofing);\n
+•	involves uploading, posting, emailing, transmitting or otherwise making available any materials that you do not have a right to make available under any law;
+•	is commercial in nature, including, for example, advertising, promotional or marketing materials, or spam, phishing or other unsolicited messages;
+•	gains or tries to gain unauthorized access to these Websites, its computers and networks, or its user data, or that otherwise modifies or interferes with the use or operation of these Websites;\n
+•	imposes an unreasonable or disproportionately large load on the X90 Entertainment's infrastructure, including but not limited to transmitting spam or using other unsolicited mass emailing techniques;\n
+•	alters, damages, or deletes any content posted on these Websites;\n
+•	contains or introduces computer viruses or other disruptive, damaging or harmful files or programs; or\n
+•	Otherwise violates these Terms and Conditions or any other guidelines or policies posted on these Websites, including the Privacy Notice, which are incorporated by this reference into these Terms and Conditions.\n
+The X90 Entertainment will cooperate fully with any law enforcement officials and/or agencies if requested or required in the investigation of any users who violate these Terms and Conditions and may disclose your information to such law enforcement officials and/or agencies if required by law.\n
+The addition of gambling to the IT Act of 2000 is in conflict where much the rest of India is headed. Again, the Sikkim Government has legalized sports betting and casino gambling, Goa has legal casinos, and 13 states have legalized lottery.\n
+Now, barring 13 states, sale of lottery is banned at other places. Lotteries are hugely popular in states like Maharashtra, Mizoram, Kerala, Nagaland and Sikkim.
+LEGAL STATUS OF LOTTERIES IN INDIA\n
+There is no blanket ban on lotteries across the country. But, only 13 states allow lotteries. These are Kerala, Goa, Maharashtra, Madhya Pradesh, Punjab, West Bengal, Assam, Arunachal Pradesh, Meghalaya, Manipur, Sikkim, Nagaland and Mizoram.\n
+Mizoram state lottery result or lottery samvad result is keenly awaited in the state. Same is the case with Nagaland state lottery result, Sikkim state lottery result or Kerala lottery result.\n
+Former key centers of Tamil Nadu and Karnataka have completely banned lotteries. The ban on lotteries began around the turn of the century, when social activists raised concerns with people getting addicted to gambling leading to ruin of families.\n
+Though lotteries provided good revenue to the state governments, the social cost was considered too high to keep the practice going.\n
+IS BAN EFFECTIVE?\n
+The ban on lotteries is not very effective as they operate online and the operators have introduced several tricks like 'single-digit' matches that fetch small prizes announced daily. Big weekly prizes are announced separately.\n
+There are also many illegal lotteries, being operated by anonymous players. They have wide reach as they are run online.\n
+
+\n\n
+
+ONLINE GAMING
+Sikkim is so far the only state in India which has enacted a statute pertaining to online gaming i.e. Sikkim Online Gaming (Regulation) Act, 2008 (Sikkim Gaming Act). In terms of the Sikkim Gaming Act, an interested person can obtain a license for he purpose of conducting online games such as Roulette Black-jack, Pontoon, Punto banco, Bingo, Casino Brag, Poker, and Poker dice, Baccarat, Chemin-de-for, Backgammon, Keno and Super Pan 9.
+•	As concluded above, games of skill played for stakes in the physical form, do not come within the ambit of gaming (as defined in various state enactments); however to ascertain whether the same status is accorded to games of skill played online, it has to be seen whether there is a distinction between a game of skill and a game of chance. The expression 'skill' has been defined by the Courts as an exercise upon known rules and fixed probabilities of sagacity, which involves five parameters:\n
+o	learned or a developed ability,\n
+o	strategy,\n
+o	physical co-ordination,\n
+o	technical expertise, and\n
+o	Knowledge.\n\n
+Games like Rummy, Chess, Bridge, Billiards and Golf have been recognized by the courts in India as games of skill.\n
+•	The courts have held that Poker cannot be accepted as a game of skill; however it was stated that it would be legal to play poker within the states which do not hold it as illegal.\n\n
+•	The Courts have also opined that that the degree of skill required in games played in a physical form cannot be equated with those played online, as the degree of chance increases in case of online games and the degree of skill used in playing these games online is questionable. Hence, online games, even those requiring a high degree of skill, conducted by gaming sites offering prize money and partaking a slice of the winning hand are illegal in states which prohibit gambling.\n\n
+•	Courts in India have also stated that such online gaming portals are essentially a substitute for traditional casinos since websites operate as common gaming houses7 where members interact and place bets. Thus the company and its directors, agents, players are liable to penal consequences.\n\n
+•	It has been also held that conducting online games for profit cannot be included in the scope of trade, business or commerce as envisaged under Article 19 (1) (g)8 of the Constitution. Further, sports' betting is an offence in India and individuals earning money from bets laid on games of skill do not have the constitutional protection of Article 19(1) (g).\n\n
+In view of the aforesaid, it is clear that only Games of skill and that too played in physical form have been held by the courts to be valid and falling within the ambit of various enactments, dealing with Gaming, in India. However, as far as, on-line Gaming is concerned, the courts are of the view that on-line Gaming could not be compared to real game being played and would, therefore, not be allowed until 'skill' test is passed by it.\n\n
+
+Footnotes\n
+1 Section 13 of the Delhi Public Gambling Act, 1955\n
+2 Section 18 of the Delhi Public Gambling Act, 1955\n
+3 AIR 1957 SC 699\n
+4 AIR 1968 SC 825\n
+5 1995 6 SCC 289\n
+6 AIR 1996 SC 1153\n
+7 The court placed reliance on the definition of gaming house in the Bombay Gambling Act as any house, room or place whatsoever, in which any instrument of gaming is kept or used for profit or gain of the person owning, occupying using such house, room or place by way of charge for the use of such house, room or place or otherwise howsoever.\n
+        8 Article 19(1) (g) of the Constitution provides to every Indian citizen the right of freedom to carry on any occupation, trade or business, subject to reasonable restrictions.\n
+        Note –\n
+        Disclaimer - Purchase Of Lottery Using This Site Is Strictly Prohibited In The States Where Lotteries Are Banned\n
+        You Must Be Above 18 Years To Play Online Lottery. This Game Is Only For These States - Kerala, Goa, Maharashtra,\n
+        Madhya Pradesh, Punjab, West Bengal, Assam, Arunachal Pradesh, Meghalaya, Manipur, Sikkim, Nagaland And Mizoram\n
+\n
+        X90 Entertainment  All Rights Reserved Thank you.\n\n
+        "/>
+
+
+    </LinearLayout>
+    </ScrollView>

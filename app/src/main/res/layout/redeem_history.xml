@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:padding="8dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/white_botton">
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/redeem_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reddem id: 00"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+        <TextView
+            android:id="@+id/redeem_history_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/1/2018"
+            android:textSize="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:padding="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/holder_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Holder Name"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:id="@+id/redeemAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 00"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/bank_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abc bank"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000"
+
+                />
+            <TextView
+                android:id="@+id/acc_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456789"
+                android:layout_alignParentRight="true"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ifsccode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="avc1234"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000"
+
+                />
+            <TextView
+                android:id="@+id/panCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABCDE123A"
+                android:layout_alignParentRight="true"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/adhaarCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234 5678 9012"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000"
+
+                />
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="status"
+                android:layout_alignParentRight="true"
+                android:textSize="15dp"
+                android:padding="3dp"
+                android:textColor="#000"
+                android:background="@drawable/white_button_grayborder"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

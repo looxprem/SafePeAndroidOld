@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#11a6c2</color>
+    <color name="colorPrimaryDark">#11a6c2</color>
+    <color name="colorAccent">#d5385f</color>-->
+
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0B3769</color>
+    <color name="colorAccent">#039BE5</color>
+
+    <color name="colorPrimaryLight">#ff63a4ff</color>11
+    <color name="colorSecondary">#689F38</color>
+    <color name="colorSecondaryDark">#387002</color>
+    <color name="colorSecondaryLight">#ff99d066</color>
+
+    <color name="colorAccentBlue">#2088CF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#039BE5</color>
+    <color name="lightBlue">#81D4FA</color>
+
+    <color name="colorPurple">#7E57C2</color>
+    <color name="red">#DC143C</color>
+    <color name="btn_color">#4682b4</color>
+    <color name="deep_blue">#1976D2</color>
+    <color name="grey">#c1c4c6</color>
+    <color name="colorGradientStart">#0839a2</color>
+    <color name="colorEnd">#0780dd</color>
+    <color name="title_bar">#0b232d</color>
+    <color name="lightLine">#42aad8</color>
+    <color name="darkLine">#0f5865</color>
+    <color name="bluelight">#6183C6</color>
+    <color name="bluedark">#375796</color>
+    <color name="blueextradark">#1F3E7C</color>
+    <color name="hint_foreground_light">#808080</color>
+ <color name="darker_gray">#aaa</color>
+
+
+</resources>

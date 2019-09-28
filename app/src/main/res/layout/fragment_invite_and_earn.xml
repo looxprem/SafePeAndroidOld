@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send your friends"
+            android:textColor="#0c0d0c"
+            android:textSize="35dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invite_and_earn"
+            android:layout_margin="10dp"
+            android:textColor="#373836"
+            android:gravity="center"
+            android:textSize="15dp"
+
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/refer_img"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share your invitation code"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#373836"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/referalcodeInvite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#373836"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:background="@drawable/white_button_grayborder"
+            android:layout_gravity="center"
+
+            />
+        <Button
+            android:id="@+id/invite_frind_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invite Friends"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+
+            />
+</LinearLayout>
+    </ScrollView>

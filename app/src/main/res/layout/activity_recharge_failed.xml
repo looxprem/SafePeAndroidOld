@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/failed"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recharge Failed"
+            android:textSize="24dp"
+            android:paddingTop="0dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:id="@+id/successnote"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recharge Amount"
+                android:textSize="16dp"
+                android:paddingTop="0dp"
+                android:layout_gravity="center"
+                android:textColor="#999999"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600"
+                android:textSize="18dp"
+                android:paddingTop="0dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:id="@+id/rec_amt"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transaction ID"
+                android:textSize="16dp"
+                android:paddingTop="0dp"
+                android:layout_gravity="center"
+                android:textColor="#999999"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567890"
+                android:textAllCaps="true"
+                android:textSize="18dp"
+                android:paddingTop="0dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textStyle=""
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:id="@+id/orderid"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recharge Number"
+            android:textSize="18dp"
+            android:paddingTop="0dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:id="@+id/mob_no"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2190"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:paddingTop="0dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryLight"
+            android:textAlignment="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go to Wallet"
+                android:background="@drawable/rounded_buttons"
+                android:layout_weight="1"
+                android:id="@+id/gotowallet"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See recent transactions"
+            android:textSize="15dp"
+            android:visibility="gone"
+            android:paddingTop="0dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryLight"
+            android:id="@+id/recentransaction"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@id/darkline"
+        android:id="@+id/lightline"
+        android:background="@color/lightLine"></View>
+    <View
+        android:id="@+id/darkline"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="7dp"
+        android:background="@color/darkLine"></View>
+
+</RelativeLayout>
+
+

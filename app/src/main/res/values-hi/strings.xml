@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">
+X-Wallet</string>
+
+    <string name="message_redeem">आपका रिडीम अनुरोध स्वीकार कर लिया गया है, कृपया लेन-देन की पुष्टि के लिए 24 से 48 घंटों का कार्यदिवस प्रतीक्षा करें।</string>
+    <string name="hello_blank_fragment">नमस्ते रिक्त टुकड़ा</string>
+    <string name="title_activity_profile">प्रोफाइल</string>
+    <string name="pick_image_intent_text">pick image_intent_text</string>
+    <string name="change_password">
+पासवर्ड बदलें</string>
+    <string name="spinner_type">
+खाते का प्रकार</string>
+    <string name="notification_error_ssl_cert_invalid">क्या आप जारी रखना चाहते हैं</string>
+    <string name="notification_betting">सट्टेबाजी के लिए आगे बढ़ें</string>
+    <string name="update_alert"> क्या आप X-Wallet अपडेट करना चाहते हैं</string>
+    <string name="recharge_coupne">या कूपन द्वारा रिचार्ज</string>
+    <string name="addmoney_through_call">यदि आप चाहें तो अपने वॉलेट में पैसे जोड़ना कृपया मुझसे संपर्क करें </string>
+    <string name="invite_and_earn">
+अपने मित्रों को X-Wallet को 10 रुपये तक मुफ्त में साझा करें!</string>
+</resources>

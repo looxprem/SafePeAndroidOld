@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_linear"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/sp" />
+
+    <TextView
+        android:id="@+id/secureline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/securebtn"
+        android:layout_gravity="center"
+        android:layout_marginBottom="505dp"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingLeft="40dp"
+        android:text="The new generations payment app"
+        android:textColor="#10525C"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:hint="Passcode"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/password_visible"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_visibility_black_24dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/password_invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_visibility_off_black_24dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/securebtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/lightline"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:contentDescription="Verified By Visa"
+            android:src="@drawable/verified_by_visa" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/norton" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:contentDescription="MasterCard Secure"
+            android:src="@drawable/master_card_securecode" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/lightline"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_above="@id/darkline"
+        android:background="#42aad8"/>
+
+    <View
+        android:id="@+id/darkline"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0f5865"/>
+</LinearLayout>

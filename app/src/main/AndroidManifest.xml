@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.safepayu.wallet"
+    android:hardwareAccelerated="false"
+    android:largeHeap="true">
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/safepe_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:name=".Activity.TransferCommissionToWallet"></activity>
+        <activity android:name=".Activity.ChangePasscodeActivity" />
+        <activity android:name=".Activity.Commission" />
+        <activity android:name=".Activity.WithdrawlStatusActivity" />
+        <activity android:name=".Activity.PackageDetailsActivity" />
+        <activity android:name=".Activity.PackageActivity" />
+        <activity android:name=".Activity.Address" />
+        <activity android:name=".Activity.WithdrawlamountSuccess" />
+        <activity android:name=".PackageRequestProcessing" />
+        <activity android:name=".Activity.ReferralActivity" />
+        <activity android:name=".Activity.RechargeFailed" />
+        <activity android:name=".AddMoneyFailed" />
+        <activity android:name=".Activity.AddMoneySuccess" />
+        <activity android:name=".AddBeneficiary" />
+        <activity android:name=".MobileVerify" />
+        <activity android:name=".Activity.MemberBankAddPackages" />
+        <activity android:name=".Activity.GeneologyActivity" />
+        <activity android:name=".Activity.RechargeSuccess" />
+        <activity android:name=".Activity.ValidateOtp" />
+        <activity android:name=".Activity.WalletUpiPayment" />
+        <activity android:name=".Activity.PaymentTypeActivity" />
+        <activity android:name=".Activity.WalletAddMoney" />
+        <activity android:name=".Activity.CardPaymentActivity" />
+        <activity android:name=".Activity.SendMoneyActivity" />
+        <activity android:name=".Activity.OrderActivity" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.AddressActivity" />
+        <activity
+            android:name=".Activity.Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.HistoryActivity" />
+        <activity android:name=".Activity.Membership" />
+        <activity android:name=".Activity.WalletActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Homepage" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Activity.ForgotPasscode" />
+        <activity android:name=".paymentpackage.SuccessAmount" />
+        <activity android:name=".AdditionalPage.DisplayConformationBet" />
+        <activity android:name=".AdditionalPage.ContactUs" />
+        <activity android:name=".HisotyPackage.WalletHistory" />
+        <activity android:name=".HisotyPackage.BetHistory" />
+        <activity android:name=".HisotyPackage.RedeemHistory" />
+        <activity android:name=".AdditionalPage.Redeem" />
+        <activity android:name=".paymentpackage.SendMoneyActivity" />
+        <activity android:name=".AdditionalPage.TermAndConditions" />
+        <activity android:name=".paymentpackage.AddMoney" />
+        <activity android:name=".AdditionalPage.RedeemWallet" />
+        <activity android:name=".paymentpackage.PayUMoneyActivity" />
+        <activity android:name=".paymentpackage.PaymentStatusActivity" />
+        <activity android:name=".GatewayRechargePage" />
+        <activity android:name=".RechargeGatewayStatus" />
+        <activity android:name=".Activity.SendMoney" />
+        <activity android:name=".Activity.SendToBank" />
+        <activity android:name=".Activity.MobileRecharge" />
+        <activity android:name=".Activity.PostpaidBillpay" />
+        <activity android:name=".Activity.Dth" />
+        <activity android:name=".Activity.Utilities" />
+        <activity android:name=".Activity.ElectricityRecharge" />
+        <activity android:name=".Activity.Gas" />
+        <activity android:name=".Activity.Water" />
+        <activity android:name=".Activity.Broadband" />
+        <activity android:name=".Activity.RechargeHistory" />
+        <activity android:name=".paymentpackage.AddmoneyThroughcall" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

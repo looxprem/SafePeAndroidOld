@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/white_botton">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/history_action"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Debit"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginLeft="10dp"
+    android:textColor="#000"
+    android:layout_marginTop="10dp"
+
+    />
+    <TextView
+        android:id="@+id/history_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/12/1996"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/remarks_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:text=""
+        android:layout_marginTop="7dp"
+        />
+</LinearLayout>
+    <TextView
+        android:id="@+id/history_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs 00"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/wallet_history"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        />
+
+    </RelativeLayout>
